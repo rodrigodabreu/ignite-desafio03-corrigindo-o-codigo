@@ -4,8 +4,9 @@
   "main": "src/server.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon",
-    "test": "jest"
+    "dev": "nodemon --inspect",
+    "test": "jest",
+    "test-coverage": "jest --coverage"
   },
   "dependencies": {
     "express": "^4.17.1",
